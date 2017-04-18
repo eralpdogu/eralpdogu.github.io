@@ -1,0 +1,21 @@
+<h3 align="left"><span dir="ltr" style="outline:none"><font color="#000000" face="georgia, serif">
+<div style="display:inline;margin:5px 10px;float:right"><a href="https://sites.google.com/site/eralpdogu/software/Summary.png?attredirects=0" imageanchor="1"><img border="0" height="305" src="https://sites.google.com/site/eralpdogu/software/Summary.png" width="400"></a></div>
+</font></span></h3>
+<div>
+<table cellspacing="0">
+<tbody>
+<tr>
+<td style="width:808px;height:310px">
+<div dir="ltr">
+<h1 style="margin:0px;padding:0px 0px 12px;border-width:0px 0px 1px;border-bottom-style:dotted;border-bottom-color:rgb(204,204,204);outline:0px;vertical-align:baseline;background-color:transparent;line-height:2rem"><font color="#000000" face="georgia, serif"><a name="TOC-MSstatsQC:-A-Shiny-interface-using-longitudinal-system-suitability-monitoring-tools-for-LC-MS-MS-proteomic-experiments"></a><font size="3">MSstatsQC:&nbsp;</font></font><span style="color:rgb(36,41,46);font-size:16px;background-color:transparent"><font face="georgia, serif">An R package for longitudinal system suitability monitoring and quality control for targeted proteomic experiments</font></span></h1>
+<div>
+<p style="text-align:left;margin:0px 0px 1.5rem;padding:0px;border:0px;outline:0px;vertical-align:baseline;background-color:transparent"><font face="georgia, serif"><span style="color:rgb(36,41,46);font-size:16px">Statistical process control (SPC) is a general and well-established method of quality control (QC) which can be used to monitor and improve the quality of a process such as LC MS/MS.</span><span style="color:rgb(36,41,46);font-size:16px">&nbsp;MSstatsQC&nbsp;is an open-source R package and Shiny web application for statistical analysis and monitoring of quality control and system suitability testing (SST) samples produced by spectrometry-based proteomic experiments. Our framework termed MSstatsQC</span><span style="color:rgb(36,41,46);font-size:16px">&nbsp;is available through&nbsp;</span><a href="http://www.msstats.org/msstatsqc" style="background-color:transparent;color:rgb(3,102,214);text-decoration:none;font-size:16px">www.msstats.org/msstatsqc</a><span style="color:rgb(36,41,46);font-size:16px">. It uses SPC tools to track metrics including total peak area, retention time, full width at half maximum (FWHM) and peak asymmetry for proteomic experiments. We introduce simultaneous and time weighted control charts and change point analysis to monitor mean and variability of metrics. Proposed longitudinal monitoring approach significantly improves the ability of real time monitoring, early detection and prevention of chromatographic and instrumental problems of mass spectrometric assays, thereby, reducing cost of control and failure.</span></font></p>
+<p style="margin:0px;padding:0px;border:0px;outline:0px;vertical-align:baseline;background-color:transparent"><font color="#000000" face="georgia, serif" size="3">MSstatsQC and related documentation are available&nbsp;<a href="http://msstats.org/msstatsqc/" rel="nofollow">here</a>.</font><span style="color:rgb(0,0,0);font-family:georgia,serif;font-size:medium">&nbsp;</span></p>
+<p style="margin:0px;padding:0px;border:0px;outline:0px;vertical-align:baseline;background-color:transparent"><span style="color:rgb(0,0,0);font-family:georgia,serif;font-size:medium">MSstatsQC v</span><span style="color:rgb(0,0,0);font-family:georgia,serif;font-size:medium;background-color:transparent">ignette is </span><font size="3" style="font-family:georgia,serif"><a href="https://github.com/eralpdogu/MSstatsQC/blob/master/vignettes/MSstatsQC_v.1.0.0_vignette.Rmd" style="font-family:georgia,serif">here</a>.</font></p>
+</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
