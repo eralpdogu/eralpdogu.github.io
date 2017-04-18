@@ -1,94 +1,33 @@
 /*
-	Forty by HTML5 UP
+	Minimaxing by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-/* Spotlights */
+/* Reusable */
 
-	.spotlights > section:after {
-		content: '';
-		display: block;
-		clear: both;
+	.button {
+		background-image: url("images/ie/button.svg");
 	}
 
-	.spotlights > section > .image {
-		float: left;
-	}
-
-	.spotlights > section > .content {
-		float: left;
-	}
-
-/* Tiles */
-
-	.tiles:after {
-		content: '';
-		display: block;
-		clear: both;
-	}
-
-	.tiles article {
-		padding: 8em 4em 6em 4em ;
-		float: left;
-		height: auto;
-		max-height: none;
-		min-height: 0;
-	}
+		.button:hover {
+			background-image: url("images/ie/button-hover.svg");
+		}
 
 /* Header */
 
-	#header .logo {
-		position: absolute;
-		top: 0;
-		left: 0;
+	#header-wrapper {
+		background-image: url("images/ie/header-wrapper.svg");
 	}
 
-	#header nav {
-		position: absolute;
-		top: 0;
-		right: 0;
+	#header {
+		background-image: url("images/ie/header.svg");
 	}
 
-/* Banner */
-
-	#banner {
-		padding: 7em 0 4em 0 ;
-		background-attachment: scroll;
-		height: auto;
-		max-height: none;
-		min-height: 0;
-	}
-
-		#banner > .inner .content {
-			display: block;
+		#header nav a.current-page-item {
+			background-image: url("images/ie/nav-a.svg");
 		}
 
-			#banner > .inner .content > * {
-				margin-left: 0;
-				margin: 0 0 2em 0;
-			}
-
-		#banner.major {
-			height: auto;
-			max-height: none;
-			min-height: 0;
+		#header nav a:hover {
+			background-image: url("images/ie/nav-a-hover.svg");
 		}
-
-/* Contact */
-
-	#contact:after {
-		content: '';
-		display: block;
-		clear: both;
-	}
-
-	#contact > .inner > * {
-		float: left;
-	}
-
-/* Menu */
-
-	#menu .inner {
-		margin: 0 auto;
-	}
